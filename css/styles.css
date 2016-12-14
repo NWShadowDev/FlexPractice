@@ -5,23 +5,24 @@ body {
   display: flex;
   flex-wrap: wrap;
   width: 100%; }
-  .container #top img {
+  .container #top {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 600px; }
-  .container #top h1 {
-    float: right;
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 5px;
-    font-family: arial;
-    position: relative;
-    bottom: 100px; }
+    height: 600px;
+    background-image: url("../img/img1.jpg"); }
+    .container #top h1 {
+      float: right;
+      background-color: rgba(255, 255, 255, 0.5);
+      padding: 5px;
+      font-family: arial;
+      position: relative;
+      bottom: 100px; }
   .container #bottom {
     width: 100%;
     height: 700px;
-    background-color: white; }
+    background-color: rgba(255, 255, 255, 0.2); }
     .container #bottom .row {
       width: 100%; }
       .container #bottom .row .col {
@@ -35,8 +36,6 @@ body {
 
 @media screen and (min-width: 1190px) {
   #top {
-    width: 100%;
-    background-position: center;
-    background-size: auto; } }
+    background-position: top; } }
 
 /*# sourceMappingURL=styles.css.map */
